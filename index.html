@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prachi Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+  <h2>MY PORTFOLIO</h2>
+  <div>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#certificates">Certificates</a>
+    <a href="#projects">Projects</a>
+    <a href="#academic">Academic</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<header id="home">
+  <h1>Hi, I'm Prachi Rathod</h1>
+  <p>Aspiring Developer | Creative Thinker | Tech Enthusiast</p>
+  <br><br>
+  <a href="resume.pdf" class="btn" download>Download Resume</a>
+</header>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>I am a BCA student passionate about coding and technology. I enjoy learning new skills and working on projects that solve real-world problems. I believe in continuous learning and improving my programming skills.</p>
+</section>
+
+<section id="achievements">
+  <h2>Achievements</h2>
+  <div class="grid">
+
+    <div class="card">
+      <p><strong>Web Development</strong></p>
+      <p>Learned HTML, CSS and JavaScript fundamentals.</p>
+    </div>
+
+    <div class="card">
+      <p><strong>Python Basics</strong></p>
+      <p>Completed basic programming and logic building.</p>
+    </div>
+
+    <div class="card">
+      <p><strong>Mini Projects</strong></p>
+      <p>Built academic projects for practical knowledge.</p>
+    </div>
+
+    <div class="card">
+      <p><strong>Problem Solving</strong></p>
+      <p>Practicing logical thinking and coding problems.</p>
+    </div>
+
+  </div>
+</section>
+
+<section id="certificates">
+  <h2>Certificates</h2>
+  <div class="grid">
+    <div class="card">
+     <img src="images/image.jpeg" onclick="openLightbox(this.src)">
+      <p>AI Workshop</p>
+    </div>
+
+    <div class="card">
+      <img src="images/image2.jpeg" onclick="openLightbox(this.src)">
+      <p>Soft Skills</p>
+    </div>
+
+    
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="grid">
+
+    <div class="card">
+     <img src="images/proj.jpeg" onclick="openLightbox(this.src)">
+      <p><strong>TASK Manager System</strong></p>
+      <p>Manage student data using basic programming.</p>
+    </div>
+
+    
+  </div>
+</section>
+
+<section id="academic">
+  <h2>Academic Performance</h2>
+
+  <div class="grid">
+
+    <div class="card">
+      <h3>BCA – 1st Semester</h3>
+      <p class="highlight">7.5 CGPA</p>
+      <p>Year: 2025</p>
+    </div>
+
+    <div class="card">
+      <h3>12th Standard</h3>
+      <p class="highlight">62%</p>
+      <p>Year: 2024</p>
+    </div>
+
+    <div class="card">
+      <h3>10th Standard</h3>
+      <p class="highlight">63%</p>
+      <p>Year: 2022</p>
+    </div>
+
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  
+  <p>Email: 
+    <a href="mailto:prachi@example.com">prachi@example.com</a>
+  </p>
+  
+  <p>GitHub: 
+    <a href="#">github.com/prachi</a>
+  </p>
+  
+  <p>LinkedIn: 
+    <a href="#">linkedin.com/in/prachi</a>
+  </p>
+</section>
+
+<div class="lightbox" id="lightbox" onclick="closeLightbox()">
+  <img id="lightbox-img">
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
